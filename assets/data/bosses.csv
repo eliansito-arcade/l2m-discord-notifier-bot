@@ -1,0 +1,30 @@
+Region,Boss Name,Chance,Respawn Hours,Rus Name,Rus Loc Name
+Gludio,Basila,50,4,БАЗИЛ,Южная Пустошь
+Gludio,Chertuba,50,6,ЧЕРТУБА,Казармы Чертубы
+Gludio,Kelsus,50,10,КЕЛЬСУС,Руины Отчаяния
+Gludio,Queen Ant,33,6,КВИНА,Муравейник 3
+Gludio,Saban,100,12,САБАН,Муравейник 2
+Dion,Contaminated Cruma,100,8,КРУМА3,Башня Крумы 3
+Dion,Core Susceptor,33,10,ЯДРО,Башня Крумы 7
+Dion,Enkura,50,6,ЭНКУРА,Равнины Диона
+Dion,Felis,50,3,ФЕЛИС,Пасека
+Dion,Katan,100,10,КАТАН,Башня Крумы 6
+Dion,Mutated Cruma,100,8,МУТАНТ,Топи Крумы
+Dion,Pan Draaed,100,12,ДРАЙД,Холмы Диона
+Dion,Sarka,100,10,ШАРКА,Поселение Ящеров Делу
+Dion,Stonegeist,100,7,КАМЕНУК,Следы Гигантов
+Dion,Talakin,100,10,ТАЛАКИН,Убежище Повставнцев
+Dion,Timitris,100,8,ТИМИТРИС,Угодья Флоран
+Dion,Valefar,50,6,БУРЯ,Хранилище Трупов
+Giran,Behemoth,100,9,ЧУДОВИЩЕ,Долина Драконов Север
+Giran,Black Lily,100,12,ЛИЛИЯ,Долина Смерти
+Giran,Breka,50,6,БРЕКА,Укрепление Брека
+Giran,Matura,50,6,МАТУРА,Лагерь Налетчиков
+Giran,Medusa,100,10,МЕДУЗА,Сад Медузы
+Giran,Pan Narod,50,5,МАРОД,Сад Гаргон
+Giran,Dragon Beast,33,12,ДРАКОН,Лоа 6
+Oren,Tromba,50,7,ФАРОБОС,Кровавые топи
+Oren,Gahareth,50,9,ГАРЕТ,Каньон Танор
+Oren,Talkin,33,8,ТАЛКИН,Долина Ящеров
+Oren,Selu,33,12,СЕЛУ,Застава Орков Тимак
+Oren,Balbo,50,12,БАЛЬБО,Долина Охотников

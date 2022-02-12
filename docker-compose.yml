@@ -1,0 +1,67 @@
+version: '3.8'
+services:
+  textbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: discord-bot:latest
+    env_file:
+     - .env
+    environment:
+     - SCRIPT_NAME=text-bot.py
+     - TOKEN=<TOKEN>
+     - CHANNEL=general
+    volumes:
+     - ./assets:/assets
+  voicebot1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: discord-bot:latest
+    env_file:
+     - .env
+    environment:
+     - SCRIPT_NAME=sound-bot.py
+     - TOKEN=<TOKEN>
+     - CHANNEL=РБ
+    volumes:
+     - ./assets:/assets
+  voicebot2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: discord-bot:latest
+    env_file:
+     - .env
+    environment:
+     - SCRIPT_NAME=sound-bot.py
+     - TOKEN=<TOKEN>
+     - CHANNEL=MADR
+    volumes:
+     - ./assets:/assets
+  voicebot3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: discord-bot:latest
+    env_file:
+     - .env
+    environment:
+     - SCRIPT_NAME=sound-bot.py
+     - TOKEN=<TOKEN>
+     - CHANNEL=CALVADOS
+    volumes:
+     - ./assets:/assets
+  voicebot4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: discord-bot:latest
+    env_file:
+     - .env
+    environment:
+     - SCRIPT_NAME=sound-bot.py
+     - TOKEN=<TOKEN>
+     - CHANNEL=!БЕЗ_ФЛУДА(Бот_РБ)
+    volumes:
+     - ./assets:/assets
