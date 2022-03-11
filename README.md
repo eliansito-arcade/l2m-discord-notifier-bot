@@ -9,14 +9,19 @@
 Here are two ways to start bots: manual (3 and 4) OR auto with docker (5 or 6)
 
 ## 2. Preinstall packages for server:
+
+Installing needed libraries for voice-bot
 ```
 sudo apt-get install ffmpeg  
 sudo apt-get install frei0r-plugins
+```
+Creating and activating python virtual environment
+```
+cd l2m-discord-notifier-bot
 python3 -m venv env
 source ./env/bin/activate
 pip install -r requirements.txt
 ```
-
 ## 3. Manual. Run text bot:
 
 Permissions: 
