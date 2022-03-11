@@ -67,7 +67,7 @@ class Boss():
         return(f"**{self.name}**")
 
     def __str__(self):
-        return (f"{self.name}|{self.chance=}|{self.location}|{self.respawn_hours=}\n{self.respawn_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        return (f"{self.name}|{self.chance}|{self.location}|{self.respawn_hours}\n{self.respawn_time.strftime('%Y-%m-%d %H:%M:%S')}")
         
 data = np.genfromtxt('./assets/data/bosses.csv', names=True, delimiter=',', dtype=None, encoding='utf8')
 bosses_dict = dict(list(map(lambda x: (x[4], Boss(x[1], x[4], x[2], x[5], x[3])), data)))
