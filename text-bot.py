@@ -150,14 +150,15 @@ async def command_not_found(channel):
     header = "**Доступные команды:**"
     show_all = "**!** (список появления боссов)"
     reset_all = "**!restart** (удаляет всех боссов)"
+    import_all = "**!import_file** (удаляет всех, и загружает из базы, нужно после перезапуска бота)"
     boss_names = "**?** (список имен боссов)"
     add_boss = "**+брека** (добавляет бреку, убили сейчас)"
     add_boss_with_time = "**+брека 2022-02-03 05:53:00** (добавляет бреку, убили в опр время)"
     delete_boss = "**-брека** (удаляет из списка опр босса)"
     help_msg = "**?help** - вызывать эту подсказку"
     boss_names = "**?** - показать имена боссов"
-    info_msg = "**!info Боссы МАДР: крума3, брека, медуза** (устанавливает додп информацию)" 
-    msg = "\n".join([header,show_all,reset_all,add_boss,add_boss_with_time,delete_boss,help_msg,boss_names, info_msg])
+    info_msg = "**!info Боссы МАДР: крума3, брека, медуза** (устанавливает доп информацию)" 
+    msg = "\n".join([header,show_all,reset_all,import_all,add_boss,add_boss_with_time,delete_boss,help_msg,boss_names,info_msg])
     await channel.send(msg)
 
 async def text_notification():
