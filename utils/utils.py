@@ -34,17 +34,17 @@ class Boss():
     
     def boss_tagged_str(self):
         (hours, minutes, seconds, _) = self.last_time()
-        return(f"Босс **{self.name}** убит!\nЯ напомню о его респе через {hours}ч {minutes}м {seconds}с")
+        return(f"Boss **{self.name}** muerto!\nRecordatorio en {hours}h {minutes}m {seconds}s")
 
     def boss_status_str(self):
         (hours, minutes, seconds, is_valid) = self.last_time()
         moscow_time = self.respawn_time.strftime('%H:%M:%S') 
         if is_valid and hours == 0 and minutes == 0 and seconds == 0:
-            return(f"{moscow_time} **{self.name}** в {self.location} появился! | шанс {self.chance}% | {moscow_time} мск")
+            return(f"{moscow_time} **{self.name}** apareció en {self.location}  | prob. {self.chance}% | {moscow_time} мск")
         elif is_valid:
-            return(f"**{self.name}** в {self.location} через {hours}ч {minutes}м {seconds}с | шанс {self.chance}% | {moscow_time} мск")
+            return(f"**{self.name}** en {self.location} dentro de {hours}h {minutes}m {seconds}s | prob. {self.chance}% | {moscow_time} мск")
         else: 
-            return(f"**{self.name}** уже реснулся {59-minutes}м {59-seconds}с назад! | шанс {self.chance}% | {moscow_time} мск")
+            return(f"**{self.name}** ya fue hace {59-minutes}m {59-seconds}s  | prob {self.chance}% | {moscow_time} мск")
 
     def export_msg(self):
         date_str = self.respawn_time.strftime('%Y-%m-%d %H:%M:%S') 
@@ -61,7 +61,7 @@ class Boss():
         return boss
 
     def not_tagged(self):
-        return(f"**{self.name}** должен был реснуться.\nНапиши +{self.name.lower()} для сброса таймера.")
+        return(f"**{self.name}** debería haber aparecido\escribe +{self.name.lower()} para restablecer el temporizador.")
 
     def boss_short_str(self):
         return(f"**{self.name}**")
