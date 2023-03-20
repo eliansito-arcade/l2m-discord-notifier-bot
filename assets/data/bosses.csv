@@ -1,31 +1,46 @@
 Region,Boss Name,Chance,Respawn Hours,Rus Name,Rus Loc Name
-Gludio,Basila,50,4,БАЗИЛ,Южная Пустошь
-Gludio,Chertuba,50,6,ЧЕРТУБА,Казармы Чертубы
-Gludio,Kelsus,50,10,КЕЛЬСУС,Руины Отчаяния
-Gludio,Queen Ant,33,6,КВИНА,Муравейник 3
-Gludio,Saban,100,12,САБАН,Муравейник 2
-Dion,Contaminated Cruma,100,8,КРУМА3,Башня Крумы 3
-Dion,Core Susceptor,33,10,ЯДРО,Башня Крумы 7
-Dion,Enkura,50,6,ЭНКУРА,Равнины Диона
-Dion,Felis,50,3,ФЕЛИС,Пасека
-Dion,Katan,100,10,КАТАН,Башня Крумы 6
-Dion,Mutated Cruma,100,8,МУТАНТ,Топи Крумы
-Dion,Pan Draaed,100,12,ДРАЙД,Холмы Диона
-Dion,Sarka,100,10,ШАРКА,Поселение Ящеров Делу
-Dion,Stonegeist,100,7,КАМЕНУК,Следы Гигантов
-Dion,Talakin,100,10,ТАЛАКИН,Убежище Повставнцев
-Dion,Timitris,100,8,ТИМИТРИС,Угодья Флоран
-Dion,Valefar,50,6,БУРЯ,Хранилище Трупов
-Giran,Behemoth,100,9,ЧУДОВИЩЕ,Долина Драконов Север
-Giran,Black Lily,100,12,ЛИЛИЯ,Долина Смерти
-Giran,Breka,50,6,БРЕКА,Укрепление Брека
-Giran,Matura,50,6,МАТУРА,Лагерь Налетчиков
-Giran,Medusa,100,10,МЕДУЗА,Сад Медузы
-Giran,Pan Narod,50,5,МАРОД,Сад Гаргон
-Giran,Dragon Beast,33,12,ДРАКОН,Лоа 6
-Oren,Tromba,50,7,ФАРОБОС,Кровавые топи
-Oren,Gahareth,50,9,ГАРЕТ,Каньон Танор
-Oren,Talkin,33,8,ТАЛКИН,Долина Ящеров
-Oren,Selu,33,12,СЕЛУ,Застава Орков Тимак
-Oren,Balbo,50,12,БАЛЬБО,Долина Охотников
-Oren,Timiniel,100,8,ТИМИНИЭЛЬ,Логово Тиминиэль
+Gludio,Basila,50,4,basila,Erial del sur
+Gludio,Chertuba,50,6,cher,Barracones de Chertuba
+Gludio,Kelsus,50,10,kelsus,Ruinas de la agonía
+Gludio,Queen Ant,33,6,qa,Hormiguero 3
+Gludio,Savan,100,12,savan,Hormiguero 2
+Dion,Contaminated Cruma,100,8,ccruma,Cruma 3
+Dion,Core Susceptor,33,10,core,Cruma 7
+Dion,Enkura,50,6,enkura,Llanuras de Dion
+Dion,Felis,50,3,felis,Colmenar
+Dion,Katan,100,10,katan,Cruma 6
+Dion,Mutated Cruma,100,8,mcruma,Marisma de Cruma
+Dion,Pan Draaed,100,12,pand,Colinas de Dion
+Dion,Sarka,100,10,sarka,Moradas de los hombres lagarto delu
+Dion,Stonegeist,100,7,stone,Vestigio de los gigantes
+Dion,Talakin,100,10,talakin,Territorio Rebelde
+Dion,Timitris,100,8,timitris,Campos de Floran
+Dion,Valefar,50,6,valefar,Morgue
+Giran,Behemoth,100,9,behe,Norte del Valle del dragón
+Giran,Black Lily,100,12,lily,Paso de la muerte
+Giran,Breka,50,6,breka,Fortaleza de Breka
+Giran,Matura,50,6,matura,Campamento de los saqueadores
+Giran,Medusa,100,10,medusa,Jardín de medusa
+Giran,Pan Narod,50,5,pann,Jardín de flores de las gorgonas
+Giran,Dragon Beast,33,12,db,Antharas 6
+Oren,Tromba,50,7,tromba,Pantano manchado de sangre
+Oren,Gahareth,50,9,gaha,Cañón Tanor
+Oren,Talkin,33,8,talkin,Asentamiento de los hombres lagarto leto
+Oren,Selu,33,12,selu,Altar de Pa'agrio
+Oren,Balbo,50,12,balbo,Fortaleza de los bandoleros
+Oren,Timiniel,100,8,timiniel,Nido de Timiniel
+Aden,Oblivion Mirror,100,11,mirror,Bosque de los espejos
+Aden,Hisilrome,50,6,hisil,Llanuras asoladas por la guerra
+Aden,Landor,100,9,landor,Llanuras de la condena
+Aden,Flynt,33,5,flynt,Cementerio nacional
+Aden,Cabrio,50,12,cabrio,Cementerio nacional
+Aden,Andras,50,15,andras,Campos de la masacre
+Aden,Haff,33,20,haff,Sello de Shilen
+Aden,Glaki,100,8,glaki,Valle Silencioso
+Aden,Olkuth,33,24,olkuth,Valle Silencioso
+Aden,Rahha,33,34,rahha,Campo de Batalla Ancestral
+Aden,Thanatos,33,25,thana,Campo de Batalla Ancestral
+Oren,Orfen,33,24,orfen,Erial de esporas
+Oren,Repiro,50,7,repiro,Erial de esporas
+Oren,Coroon,100,12,coroon,IT 2
+Oren,Samuel,100,12,samuel,IT 3
