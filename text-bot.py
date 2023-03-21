@@ -85,10 +85,10 @@ async def on_message(message):
         await channel.send(export_msg())
     elif text == '!export_file': 
         export_all()
-        await channel.send(f"Exportado a fichero.")
+        await channel.send(f"BBDD exportada.")
     elif text == '!import_file':
         bosses = load_bosses()
-        await channel.send(f"Боссы добавлены в список.")
+        await channel.send(f"BBDD importada.")
     elif text == '?':
         await all_bosses_short(channel)
     elif text == '?help':
