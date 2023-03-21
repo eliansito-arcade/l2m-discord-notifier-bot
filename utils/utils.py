@@ -48,14 +48,14 @@ class Boss():
 
     def export_msg(self):
         date_str = self.respawn_time.strftime('%Y-%m-%d %H:%M:%S') 
-        return(f"+{self.name.upper()} {date_str}")
+        return(f"+{self.name.lower()} {date_str}")
 
     @staticmethod
     def from_export_str(astring, is_manual=False):
         line = astring.split()
         boss_name = str(line[0][1:])
         resp_last = str(" ".join(line[1:]))
-        boss = bosses_dict.get(boss_name.upper())
+        boss = bosses_dict.get(boss_name.lower())
         resp_last = dt.fromisoformat(resp_last) if is_manual else dt.fromisoformat(resp_last) - td(hours=boss.respawn_hours)
         boss.calc_respawn_time(force=True, respawn_time=resp_last)
         return boss
