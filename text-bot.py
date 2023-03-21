@@ -36,7 +36,7 @@ async def on_message(message):
     if text.startswith('-'):
         parts = text[1:].split()
         if len(parts) == 1:
-            boss_name = parts[0].upper()
+            boss_name = parts[0].lower()
             if boss_name in bosses_dict.keys():
                 del bosses[boss_name]
                 await boss_untagged(channel, boss_name)
@@ -47,7 +47,7 @@ async def on_message(message):
     elif text.startswith('+'):
         parts = text[1:].split()
         if len(parts) == 1:
-            boss_name = parts[0].upper()
+            boss_name = parts[0].lower()
             if boss_name in bosses_dict.keys():
                 boss = bosses_dict.get(boss_name)
                 boss.calc_respawn_time()
