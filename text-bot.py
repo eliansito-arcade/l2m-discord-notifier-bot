@@ -130,7 +130,7 @@ async def check_5m_for_text_notification(channel):
             msg = "\n".join([boss.not_tagged() for boss in delete_bosses])
             result_msg = result_msg + '\n' + deleted_header + msg + '\n'
             for boss in delete_bosses:
-                msg2 = "\n\+boss.name"
+                msg2 = "\n\+".join(boss.name)
                 await channel.send(msg2)
                 # del bosses[boss.name]
             
