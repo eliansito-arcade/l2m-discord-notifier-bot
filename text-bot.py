@@ -168,7 +168,7 @@ async def text_notification():
     channel = set_channel(client, sys.argv[2])
     while not client.is_closed():
         await check_5m_for_text_notification(channel)
-        await asyncio.sleep(240) # task runs every 4min = 240 seconds
+        await asyncio.sleep(60) # task runs every 1min = 60 seconds
 
 client.loop.create_task(text_notification())
 client.run(TOKEN)
